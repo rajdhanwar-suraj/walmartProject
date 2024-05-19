@@ -43,6 +43,9 @@ const MainStates = ({ children }) => {
             email: '',
             cartItems: []
         });
+
+        // Reload the page
+        window.location.reload();
     };
 
     // Function to check if user is authenticated
